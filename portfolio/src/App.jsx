@@ -1,5 +1,5 @@
 import React , { Component } from 'react';
-
+import About from './about';
 
 class App extends Component {
     render() {
@@ -17,6 +17,7 @@ class App extends Component {
             </div>
           </nav>
            <div>HEY</div>
+            <About/>
             </div>
         )
     }
