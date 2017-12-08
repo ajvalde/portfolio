@@ -6,7 +6,7 @@ class About extends Component {
         return (
             <div class="container">
                 <div class="acard row section">
-                    <div class="col s5">
+                    <div class="col s12 m12">
                         <div class="card-panel blue">
                             <span class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor, nunc pulvinar tristique faucibus, 
                             velit ex vehicula sem, ac iaculis diam velit at mauris. Vivamus at elit lorem. Donec pharetra lectus sed lorem maximus facilisis. 

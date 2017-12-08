@@ -4,7 +4,7 @@ import './App.css';
 class Sidenav extends Component {
     render() {
         return (
-            <h2>SideNav</h2>
+            <h3>SideNav</h3>
         )
     }
 }
