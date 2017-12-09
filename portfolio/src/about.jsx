@@ -7,8 +7,8 @@ class About extends Component {
             <div class="container">
                 <div class="acard row section">
                     <div class="col s12 m12">
-                        <div class="card-panel blue">
-                            <span class="white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor, nunc pulvinar tristique faucibus, 
+                        <div class="card-panel grey z-depth-2">
+                            <span class="black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor, nunc pulvinar tristique faucibus, 
                             velit ex vehicula sem, ac iaculis diam velit at mauris. Vivamus at elit lorem. Donec pharetra lectus sed lorem maximus facilisis. 
                             Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ornare risus a ultrices tincidunt.
                              Integer dapibus at ipsum et lobortis. Morbi ut volutpat magna. Maecenas enim nulla, aliquam ultricies orci id, sagittis aliquam erat. In sed eleifend ante.

@@ -4,7 +4,12 @@ import './App.css';
 class Sidenav extends Component {
     render() {
         return (
-            <h3>SideNav</h3>
+            <div>
+                <div class="side_nav card-panel blue">
+
+                </div>
+            </div>
+           
         )
     }
 }
