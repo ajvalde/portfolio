@@ -22,7 +22,7 @@ class App extends Component {
             <div class="side ">
             <div class="col s2 side_nav card-panel">
 
-                {/* <Sidenav/> */}
+                <Sidenav/>
                 </div>
             </div>
 

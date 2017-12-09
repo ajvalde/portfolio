@@ -1,5 +1,6 @@
 .acard {
     margin-top: 200px;
+    background-color: #FFC884;
    
 }
 
@@ -30,6 +31,19 @@
     
 }
 
+.nav-buttons {
+    padding-top: 12rem;
+}
+
+.side-buttons {
+    padding-top: 50px;
+    
+}
+
+.btn {
+    background-color: #FFC884;
+    color: black;
+}
 
 
 
