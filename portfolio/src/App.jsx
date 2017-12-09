@@ -20,10 +20,10 @@ class App extends Component {
           </nav> */}
           <div class="row">
             <div class="side ">
-            <div class="col s2 side_nav card-panel grey darken-3">
+            <div class="col s2 side_nav card-panel">
 
-                </div>
                 {/* <Sidenav/> */}
+                </div>
             </div>
 
             <div class="card-panel green content col s10">
