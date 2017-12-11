@@ -1,6 +1,6 @@
 .acard {
     margin-top: 200px;
-    background-color: #FFC884;
+    background-color: #540AFF;
    
 }
 
@@ -16,7 +16,8 @@
     height: 100vh;
     width: 100vh;
     margin: 0px;
-    background-image: url("./img/subtle-wood.gif");
+    /* background-image: url("./img/subtle-wood.gif"); */
+    background-color: #081B59;
     
 }
 
@@ -26,7 +27,9 @@
     height: 100vh;
     width: 100vh;
     margin-top: 0px;
-    background-image: url("./img/wood.png");
+    background-image: url("./img/galaxy.jpg");
+    background-size: cover;
+    background-position: center;
    
     
 }
@@ -37,11 +40,11 @@
 
 .side-buttons {
     padding-top: 50px;
-    
+    padding-left: 8px;
 }
 
 .btn {
-    background-color: #FFC884;
+    background-color: #540AFF;
     color: black;
 }
 
