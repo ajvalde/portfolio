@@ -7,7 +7,7 @@ import './App.css'
 class App extends Component {
     render() {
         return (
-            <div>
+            <div class="fix">
 
             {/* <nav class="fixed-nav">
             <div class="nav-wrapper grey darken-1 z-depth-2 ">
