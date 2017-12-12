@@ -1,6 +1,7 @@
 import React , { Component } from 'react';
 import About from './about';
 import Sidenav from './sidenav';
+import Logo from './Logo';
 import './App.css'
 
 class App extends Component {
@@ -18,16 +19,18 @@ class App extends Component {
               </ul>
             </div>
           </nav> */}
+          
           <div class="row">
             <div class="side ">
-            <div class="col s2 side_nav card-panel">
-
-                <Sidenav/>
-                </div>
-            </div>
+                <div class="col s2 side_nav card-panel">
+                    <Sidenav/>
+                 </div>
+           </div>
 
             <div class="card-panel green content col s10">
+                <Logo/>
                 <About/>
+
             </div>
           </div>
             </div>
