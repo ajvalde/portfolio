@@ -5,7 +5,7 @@ class Logo extends Component {
         return (
             <div>
                 <div class="logo">
-                    <img src={require('./img/my_logo.png')} alt="" height="300" width="300"/>
+                    <img src={require('./img/my_logo2.png')} alt="" height="176"/>
                 </div>
             </div>
         )
