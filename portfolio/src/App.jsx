@@ -6,6 +6,18 @@ import Projects from './project'
 import './App.css'
 
 class App extends Component {
+    constructor () {
+        super()
+        this.state = {
+            isHidden: true
+        }
+    }
+    toggleHidden () {
+        this.setState({
+            isHidden: !this.state.isHidden
+        })
+    }
+
     render() {
         return (
             <div class="fix">
