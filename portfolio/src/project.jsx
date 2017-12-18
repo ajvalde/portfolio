@@ -5,7 +5,7 @@ class Projects extends Component {
         return (
             <div>
                 <div class="card-panel white center-align">
-                    <h1>HELLO PEEPS</h1>
+                    <h1>HELLO PEEPS test</h1>
                 </div>
             </div>
         )
