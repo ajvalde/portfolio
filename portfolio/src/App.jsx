@@ -2,6 +2,7 @@ import React , { Component } from 'react';
 import About from './about';
 import Sidenav from './sidenav';
 import Logo from './Logo';
+import Projects from './project'
 import './App.css'
 
 class App extends Component {
@@ -27,9 +28,11 @@ class App extends Component {
                  </div>
            </div>
 
-            <div class="card-panel green content col s10">
+            <div class="card-panel content col s10">
+
                 <Logo/>
                 <About/>
+                <Projects/>
 
             </div>
           </div>

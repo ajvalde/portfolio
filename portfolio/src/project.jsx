@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 
-class componentName extends Component {
+class Projects extends Component {
     render () {
         return (
             <div>
-                
+                <div class="card-panel white center-align">
+                    <h1>HELLO PEEPS</h1>
+                </div>
             </div>
         )
     }
 }
 
-export default componentName
+export default Projects
