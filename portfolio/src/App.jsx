@@ -36,6 +36,7 @@ class App extends Component {
           <div class="row">
             <div class="side ">
                 <div class="col s2 side_nav card-panel">
+                    <h2 class="center-align">Anthony Valdez</h2>
                     <Sidenav/>
                  </div>
            </div>
