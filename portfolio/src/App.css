@@ -37,6 +37,7 @@
 
 .nav-buttons {
     padding-top: 50px;
+    margin-left: 20px;
 }
 
 .side-buttons {
@@ -47,6 +48,8 @@
 .btn {
     background-color: #540AFF;
     color: black;
+    width: 10rem;
+    
 }
 
 .logo {

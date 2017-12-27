@@ -7,13 +7,13 @@ class Sidenav extends Component {
             <div>
                 <div class="nav-buttons">
                     <div class="side-buttons">
-                        <a class="z-depth-4 waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+                        <a class="z-depth-4 waves-effect waves-light btn">About</a>
                     </div>
                     <div class="side-buttons">
-                        <a class="z-depth-4 waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+                        <a class="z-depth-4 waves-effect waves-light btn">Project</a>
                     </div>
                     <div class="side-buttons">
-                        <a class="z-depth-4 waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+                        <a class="z-depth-4 waves-effect waves-light btn">Skills</a>
                     </div>
                 </div>
             </div>
