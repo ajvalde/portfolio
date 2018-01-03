@@ -24,7 +24,7 @@ class App extends Component {
 
             <nav class="top-nav fixed-nav">
             <div class="nav-wrapper z-depth-2 ">
-              <a href="#" class="brand-logo center black-text">Logo</a>
+              <a href="#" class="brand-logo center black-text"><img src={require('./img/my_logo3.png')} alt="" height="176"/></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a class="btn">Sass</a></li>
                 <li><a class="btn">Components</a></li>
@@ -38,7 +38,7 @@ class App extends Component {
 
             <div class="card-panel content col s12">
 
-                <Logo/>
+                {/* <Logo/> */}
                 <About/>
                 <Projects/>
 

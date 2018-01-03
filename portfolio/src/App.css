@@ -1,5 +1,6 @@
 .top-nav {
     background-color: #081B59;
+    height: 14rem;
 }
 
 .acard {
@@ -53,6 +54,11 @@
     color: black;
     width: 10rem;
     
+    
+}
+
+#nav-mobile {
+      padding-top: 5rem;
 }
 
 .logo {
