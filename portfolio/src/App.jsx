@@ -22,7 +22,7 @@ class App extends Component {
         return (
             <div class="fix">
 
-            {/* <nav class="fixed-nav">
+            <nav class="fixed-nav">
             <div class="nav-wrapper grey darken-1 z-depth-2 ">
               <a href="#" class="brand-logo center black-text">Logo</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -31,17 +31,17 @@ class App extends Component {
                 <li><a href="collapsible.html">JavaScript</a></li>
               </ul>
             </div>
-          </nav> */}
+          </nav>
           
           <div class="row">
-            <div class="side ">
+            {/* <div class="side ">
                 <div class="col s2 side_nav card-panel">
                     <h2 class="center-align">Anthony Valdez</h2>
                     <Sidenav/>
                  </div>
-           </div>
+           </div> */}
 
-            <div class="card-panel content col s10">
+            <div class="card-panel content col s12">
 
                 <Logo/>
                 <About/>

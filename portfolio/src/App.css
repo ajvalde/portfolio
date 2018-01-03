@@ -29,7 +29,7 @@
     margin-top: 0px;
     background-image: url("./img/galaxy.jpg");
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-attachment: fixed;
    
     
@@ -37,7 +37,8 @@
 
 .nav-buttons {
     padding-top: 50px;
-    margin-left: 20px;
+    margin-left: 56px;
+    
 }
 
 .side-buttons {
