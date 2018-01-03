@@ -1,3 +1,7 @@
+.top-nav {
+    background-color: #081B59;
+}
+
 .acard {
     margin-top:60px;
     background-color: #540AFF;
@@ -27,10 +31,11 @@
     height: 100vh;
     width: 100vh;
     margin-top: 0px;
-    background-image: url("./img/galaxy.jpg");
+    /* background-image: url("./img/galaxy.jpg"); */
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-attachment: fixed;
+    background-color: #31019F;
    
     
 }
@@ -41,10 +46,7 @@
     
 }
 
-.side-buttons {
-    padding-top: 50px;
-    padding-left: 8px;
-}
+
 
 .btn {
     background-color: #540AFF;
@@ -57,6 +59,7 @@
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    
 }
 
 

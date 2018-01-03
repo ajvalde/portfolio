@@ -20,26 +20,21 @@ class App extends Component {
 
     render() {
         return (
-            <div class="fix">
+            <div class="top-nav">
 
-            <nav class="fixed-nav">
-            <div class="nav-wrapper grey darken-1 z-depth-2 ">
+            <nav class="top-nav fixed-nav">
+            <div class="nav-wrapper z-depth-2 ">
               <a href="#" class="brand-logo center black-text">Logo</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a class="btn">Sass</a></li>
+                <li><a class="btn">Components</a></li>
+                <li><a class="btn">JavaScript</a></li>
               </ul>
             </div>
           </nav>
           
           <div class="row">
-            {/* <div class="side ">
-                <div class="col s2 side_nav card-panel">
-                    <h2 class="center-align">Anthony Valdez</h2>
-                    <Sidenav/>
-                 </div>
-           </div> */}
+            
 
             <div class="card-panel content col s12">
 
