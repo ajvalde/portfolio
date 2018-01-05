@@ -35,11 +35,11 @@ html {
     height: 100vh;
     width: 100vh;
     margin-top: 0px;
-    /* background-image: url("./img/galaxy.jpg"); */
+    background-image: url("./img/galaxy.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-color: #31019F;
+    /* background-color: #31019F; */
     overflow: auto;
    
     
@@ -49,7 +49,7 @@ html {
 .btn {
     background-color: #540AFF;
     color: black;
-    /* width: 10rem; */
+    
     
     
 }
@@ -67,4 +67,8 @@ html {
     background-color: #081B59
 }
 
-
+@media screen and (max-width: 640px)  {
+    .content {
+        background: #31019F;
+    }
+}
