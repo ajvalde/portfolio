@@ -1,6 +1,5 @@
 .top-nav {
     background-color: #081B59;
-    height: 14rem;
 }
 
 .acard {
@@ -37,29 +36,28 @@
     background-position: center;
     background-attachment: fixed;
     background-color: #31019F;
+    overflow: auto;
    
     
 }
 
-.nav-buttons {
+/* .nav-buttons {
     padding-top: 50px;
     margin-left: 56px;
     
-}
+} */
 
 
 
 .btn {
     background-color: #540AFF;
     color: black;
-    width: 10rem;
+    /* width: 10rem; */
     
     
 }
 
-#nav-mobile {
-      padding-top: 5rem;
-}
+
 
 .logo {
     display: flex;
@@ -70,6 +68,11 @@
 
 
 
-.fix {
-    height: 100vh;
+.foot {
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   
+   width:100%;
 }
+
