@@ -48,7 +48,7 @@ class App extends Component {
                 {/* <Logo/> */}
                 <About/>
                 <Projects/>
-                <h2>HEY</h2>
+                
 
             </div>
 
