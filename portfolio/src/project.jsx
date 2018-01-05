@@ -7,6 +7,12 @@ class Projects extends Component {
                 <div class="card-panel white center-align">
                     <h1>HELLO PEEPS test</h1>
                 </div>
+                <div class="card-panel white center-align">
+                    <h1>HELLO PEEPS test</h1>
+                </div>
+                <div class="card-panel white center-align">
+                    <h1>HELLO PEEPS test</h1>
+                </div>
             </div>
         )
     }
