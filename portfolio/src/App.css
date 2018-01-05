@@ -35,8 +35,8 @@ html {
     height: 100vh;
     width: 100vh;
     margin-top: 0px;
-    background-image: url("./img/galaxy.jpg");
-    background-size: cover;
+    background-image: url("./img/purp.jpg");
+    /* background-size: cover; */
     background-position: center;
     background-attachment: fixed;
     /* background-color: #31019F; */
