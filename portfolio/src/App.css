@@ -20,16 +20,6 @@ html {
     
 }
 
-.side_nav {
-    height: 100vh;
-    width: 100vh;
-    margin: 0px;
-    /* background-image: url("./img/subtle-wood.gif"); */
-    background-color: #081B59;
-    
-}
-
-
 
 .content {
     height: 100vh;
