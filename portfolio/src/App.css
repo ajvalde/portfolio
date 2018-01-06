@@ -2,8 +2,20 @@ html {
     background-color: #081B59
 }
 
-.top-nav {
-    background-color: #081B59;
+.topnav {
+    display: flex;
+    flex-direction: row;
+}
+.nav-btn {
+    padding-right: 4rem;
+    
+}
+
+a.btn {
+   margin-left: 5rem;
+   margin-top: 2rem;
+   width: 12rem;
+  
 }
 
 .acard {
@@ -36,10 +48,7 @@ html {
 
 .btn {
     background-color: #540AFF;
-    color: black;
-    
-    
-    
+    color: black;   
 }
 
 

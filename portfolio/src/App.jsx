@@ -20,24 +20,28 @@ class App extends Component {
         })
     }
 
-    // $(function() {
-    //     // Handler for .ready() called.
-    //   });
-
     render() {
         return (
             <div>
-                {/* nav */}
-                <Topnav/>
+                {/* nav
+                <Topnav/> */}
             
                 {/* content */}
                 <div class="row">
                 
                     <div class="card-panel content col s12 z-depth-2">
-                        <div class="logo">
-                            <img src={require('./img/my_logo3.png')} alt="" height="176"/>
+                        {/* nav */}
+                        <div class="row">
+                            <Topnav/>
                         </div>
+                        
+                        <div class="row">
                         {/* <Logo/> */}
+                            <div class="logo">
+                                <img src={require('./img/my_logo3.png')} alt="" height="176"/>
+                            </div>
+                        </div>
+                        
                         <About/>
                         {/* <Projects/> */}
                         
