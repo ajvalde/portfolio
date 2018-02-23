@@ -17,8 +17,8 @@ class App extends Component {
     return (
       <div>
         <Navbar brand="Anthony"class="Navbar" right>
-          {/* <Link to="/projects"><NavItem>Projects</NavItem></Link> */}
-          <Link to=""><NavItem>Skills</NavItem></Link>
+          <NavItem><Link to="/projects">Projects</Link></NavItem>
+          <NavItem><Link to="">Skills</Link></NavItem>
           <NavItem>Hey</NavItem>
         </Navbar>
 
