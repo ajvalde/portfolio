@@ -16,12 +16,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar brand="Anthony"class="Navbar" right>
-          <NavItem><Link to="/projects">Projects</Link></NavItem>
-          <NavItem><Link to="">Skills</Link></NavItem>
+        
+        <Navbar className="purple black-text" right>
+          <NavItem ><Link to="/projects"><div class='navbar'>Projects</div></Link></NavItem>
+          <NavItem><Link to=""><div class='navbar'>Skills</div></Link></NavItem>
           <NavItem>Hey</NavItem>
         </Navbar>
-
+        
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/projects" component={Projects}/>
