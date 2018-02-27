@@ -17,9 +17,9 @@ class App extends Component {
     return (
       <div>
         
-        <Navbar className="purple black-text" right>
-          <NavItem ><Link to="/projects"><div class='navbar'>Projects</div></Link></NavItem>
-          <NavItem><Link to=""><div class='navbar'>Skills</div></Link></NavItem>
+        <Navbar className="black" right>
+          <NavItem ><Link to="/projects">Projects</Link></NavItem>
+          <NavItem><Link to="">Skills</Link></NavItem>
           <NavItem>Hey</NavItem>
         </Navbar>
         
