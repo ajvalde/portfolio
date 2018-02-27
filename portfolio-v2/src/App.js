@@ -18,6 +18,7 @@ class App extends Component {
       <div>
         
         <Navbar className="black" right>
+          <NavItem><Link to="/">Home</Link></NavItem>
           <NavItem ><Link to="/projects">Projects</Link></NavItem>
           <NavItem><Link to="">Skills</Link></NavItem>
           <NavItem>Hey</NavItem>
