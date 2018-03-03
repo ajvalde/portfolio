@@ -4,15 +4,16 @@ import { Navbar, Button, Row, Col, NavItem, Card, CardTitle } from 'react-materi
 
 
 const Home = ({ match }) => {
-    let pic = <img src={require('./headshot.jpg')} /> 
     return (
         <div class="container">
+            <Row>
             <div class="about">
-                <Card header={<CardTitle reveal image={require('./headshot.jpg')} waves='light'/>}
+                <Card header={<CardTitle reveal image={require('./headshot2.jpg')} waves='light'/>}
                 title="About Me"
                 reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
                 </Card>
             </div>
+            </Row>
         </div>
     )
 }
