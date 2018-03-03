@@ -2,6 +2,15 @@
 .about {
   display: flex !important;
   justify-content: center !important;
-  padding-top: 8rem;
+  
 
+}
+
+.name-tag {
+  display: flex;
+  justify-content: center;
+}
+
+.Footer {
+  background-color: black !important;
 }
