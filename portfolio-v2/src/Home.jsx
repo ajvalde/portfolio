@@ -8,7 +8,7 @@ const Home = ({ match }) => {
     return (
         <div class="container">
             <div class="about">
-                <Card header={<CardTitle reveal image={pic} waves='light'/>}
+                <Card header={<CardTitle reveal image={require('./headshot.jpg')} waves='light'/>}
                 title="About Me"
                 reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
                 </Card>

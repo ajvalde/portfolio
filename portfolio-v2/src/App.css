@@ -1,4 +1,7 @@
 
 .about {
+  display: flex !important;
+  justify-content: center !important;
   padding-top: 10rem;
+  width: 50rem;
 }
