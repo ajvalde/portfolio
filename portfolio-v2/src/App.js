@@ -4,6 +4,7 @@ import { Navbar, Button, Row, Col, NavItem, Footer } from 'react-materialize';
 import './App.css';
 import Home from './Home';
 import Projects from './Projects';
+import Skills from './Skills';
 
 
 
@@ -16,7 +17,7 @@ class App extends Component {
         <Navbar className="black" right>
           <NavItem><Link to="/">Home</Link></NavItem>
           <NavItem ><Link to="/projects">Projects</Link></NavItem>
-          <NavItem><Link to="">Skills</Link></NavItem>
+          <NavItem><Link to="/skills">Skills</Link></NavItem>
         </Navbar>
 
         
@@ -24,8 +25,9 @@ class App extends Component {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/projects" component={Projects}/>
+        <Route path="/skills" component={Skills}/>
       </Switch>
-      <Footer class="black" copyrights="copy 2015 Copyright Text"
+      <Footer class="black page-footer" copyrights=""
           moreLinks={
           <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
           }
