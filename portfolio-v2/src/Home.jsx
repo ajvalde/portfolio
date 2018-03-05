@@ -6,7 +6,7 @@ import { Navbar, Button, Row, Col, NavItem, Card, CardTitle } from 'react-materi
 const Home = ({ match }) => {
     return (
         <div class="container">
-            <div class='name-tag'>
+            <div class='header-tag'>
                 <h2>Anthony J Valdez</h2>
             </div>
             <Row>

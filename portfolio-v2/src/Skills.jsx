@@ -4,6 +4,7 @@ import { Table, Card } from 'react-materialize';
 const Skills = ({match}) => {
     return (
         <div class="container">
+        <h2 class="header-tag">Skills</h2>
         <Card>
             <Table>
                 <thead>
