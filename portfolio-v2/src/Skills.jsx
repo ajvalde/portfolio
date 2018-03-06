@@ -5,28 +5,12 @@ const Skills = ({match}) => {
     return (
         <div class="container">
         <h2 class="header-tag">Skills</h2>
-        <Card>
-            <Table>
-                <thead>
-                    <th>Languages/Frameworks</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Hey</td>
-                        <td>You</td>
-                    </tr>
-                    <tr>
-                        <td>Are</td>
-                        <td>Awesome</td>
-                    </tr>
-                </tbody>
-            </Table>
-        </Card>
 
-        <Card>
-            <Table>
+        <div class="card-panel black white-text">
+        <h3 class="center-align">Languages</h3>
+            <table>
                 <thead>
-                    <th>Tools</th>
+                    {/* <th class="center-align">Languages</th> */}
                 </thead>
                 <tbody>
                     <tr>
@@ -37,14 +21,17 @@ const Skills = ({match}) => {
                         <td>Are</td>
                         <td>Awesome</td>
                     </tr>
+                   
+                    
+                    
                 </tbody>
-            </Table>
-        </Card>
+            </table>
+        </div>
 
-        <Card>
-            <Table>
+       <div class="card-panel black white-text">
+            <table>
                 <thead>
-                    <th>Techniques</th>
+                    <th class="center-align">Tools</th>
                 </thead>
                 <tbody>
                     <tr>
@@ -56,8 +43,26 @@ const Skills = ({match}) => {
                         <td>Awesome</td>
                     </tr>
                 </tbody>
-            </Table>
-        </Card>
+            </table>
+        </div>
+
+        <div class="card-panel black white-text">
+        <table>
+            <thead>
+                <th class="center-align">Techniques</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hey</td>
+                    <td>You</td>
+                </tr>
+                <tr>
+                    <td>Are</td>
+                    <td>Awesome</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 
         </div>
