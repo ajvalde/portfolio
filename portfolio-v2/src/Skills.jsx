@@ -1,5 +1,4 @@
 import React from 'react';
-import { Table, Card } from 'react-materialize';
 
 const Skills = ({match}) => {
     return (
@@ -10,18 +9,23 @@ const Skills = ({match}) => {
             <div class="row">
                 <div class="col m8 s12 offset-m2 card-panel black white-text ">
                     <h5 class="center-align">Languages/Frameworks</h5>
+                    
                         <div class="row center-align">
                             <div class="col s6">
-
-                                <p>hey</p>
-                                <p>there</p>
+                                <p>Vue.js</p>
+                                <p>Knex.js</p>
+                                <p>Materialize</p>
+                                <p>HTML/CSS</p>
+                                <p>PostgreSQL</p>
                             </div>
 
                       
                             <div class="col s6">
-
-                                <p>hey</p>
-                                <p>there</p>
+                                <p>JavaScript</p>
+                                <p>Ruby on Rails</p>
+                                <p>Node.js</p>
+                                <p>AngularJS / 4+</p>
+                                <p>Reactjs</p>
                             </div>
                         </div>
                         

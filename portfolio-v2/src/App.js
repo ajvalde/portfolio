@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
-import { Navbar, Button, Row, Col, NavItem, Footer } from 'react-materialize';
+import { Navbar, NavItem } from 'react-materialize';
 import './App.css';
 import Home from './Home';
 import Projects from './Projects';
