@@ -10,6 +10,22 @@ const Skills = ({match}) => {
             <div class="row">
                 <div class="col m8 s12 offset-m2 card-panel black white-text ">
                     <h5 class="center-align">Languages/Frameworks</h5>
+                        <div class="row center-align">
+                            <div class="col s6">
+
+                                <p>hey</p>
+                                <p>there</p>
+                            </div>
+
+                      
+                            <div class="col s6">
+
+                                <p>hey</p>
+                                <p>there</p>
+                            </div>
+                        </div>
+                        
+    
                 </div>
              </div>
 
