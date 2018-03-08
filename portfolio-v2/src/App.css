@@ -14,3 +14,8 @@
    display: flex; 
    justify-content: center;
  }
+
+ .skill-card {
+   display: flex;
+   justify-content: center;
+ }
