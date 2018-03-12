@@ -25,6 +25,7 @@ const Skills = ({match}) => {
                                 <p>Node.js</p>
                                 <p>AngularJS / 4+</p>
                                 <p>Reactjs</p>
+                                <p>Express</p>
                             </div>
                         </div>
     

@@ -23,17 +23,12 @@ class App extends Component {
     render() {
         return (
             <div>
-                {/* nav
-                <Topnav/> */}
+                <Topnav/>
             
                 {/* content */}
                 <div class="row">
                 
                     <div class="card-panel content col s12 z-depth-2">
-                        {/* nav */}
-                        <div class="row">
-                            <Topnav/>
-                        </div>
                         
                         <div class="row">
                         {/* <Logo/> */}
@@ -42,7 +37,7 @@ class App extends Component {
                             </div>
                         </div>
                         
-                        {/* <About/> */}
+                        <About/>
                         {/* <Projects/> */}
                         
 

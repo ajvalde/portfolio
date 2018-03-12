@@ -3,14 +3,26 @@ import React, { Component } from 'react'
 class Topnav extends Component {
     render () {
         return (
+
            
-             <div class="topnav col s12">
-                <div class="row nav-btn">
-                        <a class="btn">Sass</a>
-                        <a class="btn">JavaScript</a>
-                        <a class="btn">Components</a>
-                </div>
-             </div>
+        
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
         )
     }
 }
