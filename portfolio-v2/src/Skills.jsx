@@ -7,7 +7,7 @@ const Skills = ({match}) => {
          <h2 class="header-tag">Skills</h2>
 
             <div class="row">
-                <div class="col m8 s12 offset-m2 card-panel black white-text ">
+                <div class="z-depth-3 col m8 s12 offset-m2 card-panel black white-text ">
                     <h5 class="center-align">Languages/Frameworks</h5>
 
                         <div class="row center-align">
@@ -33,7 +33,7 @@ const Skills = ({match}) => {
              </div>
 
         <div class="row">
-            <div class="col m8 s12 offset-m2 card-panel black white-text">
+            <div class=" z-depth-3 col m8 s12 offset-m2 card-panel black white-text">
                  <h5 class="center-align">Tools</h5>
 
                     <div class="row center-align">
@@ -55,7 +55,7 @@ const Skills = ({match}) => {
         </div>
 
         <div class="row">
-            <div class="col m8 s12 offset-m2 card-panel black white-text">
+            <div class="z-depth-3 col m8 s12 offset-m2 card-panel black white-text">
                 <h5 class="center-align">Techniques</h5>
 
                 <div class="row center-align">

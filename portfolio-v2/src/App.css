@@ -2,7 +2,6 @@
 .about {
   display: flex !important;
   justify-content: center !important;
-  
 
 }
 
@@ -23,4 +22,5 @@
  .project-img {
    height: 14rem;
  }
+
 

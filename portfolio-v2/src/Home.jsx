@@ -11,7 +11,7 @@ const Home = ({ match }) => {
             </div>
             <Row>
             <div class="about">
-                <Card header={<CardTitle reveal image={require('./headshot2.jpg')} waves='light'/>}
+                <Card className="z-depth-3" header={<CardTitle reveal image={require('./headshot2.jpg')} waves='light'/>}
                 title="About Me"
                 reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
                 </Card>

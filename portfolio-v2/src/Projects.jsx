@@ -8,7 +8,7 @@ const Projects = ({ match }) => {
            <div class="row">
            {/* stat-o-rama */}
                 <div class="col s4">
-                    <div class="card">
+                    <div class="card z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./stat.png')}/>
                         </div>
@@ -24,7 +24,7 @@ const Projects = ({ match }) => {
                 {/* fresh */}
 
                 <div class="col s4">
-                    <div class="card">
+                    <div class="card z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./fresh.png')}/>
                         </div>
@@ -40,7 +40,7 @@ const Projects = ({ match }) => {
                 {/* lolstats */}
 
                 <div class="col s4">
-                    <div class="card">
+                    <div class="card z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./lolstat.png')}/>
                         </div>
@@ -56,7 +56,7 @@ const Projects = ({ match }) => {
                 {/* isis mock site */}
 
                 <div class="col s4">
-                    <div class="card">
+                    <div class="card z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./funnywebsite.png')}/>
                         </div>
