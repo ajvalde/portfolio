@@ -6,7 +6,9 @@ const Projects = ({ match }) => {
            <h2 class="center-align">Projects</h2>
 
            <div class="row">
+
            {/* stat-o-rama */}
+
                 <div class="col s4">
                     <div class="card z-depth-3">
                         <div class="card-image">
@@ -20,8 +22,25 @@ const Projects = ({ match }) => {
                         </div>
                     </div>
                 </div>
+                
 
-                {/* fresh */}
+            {/* ArtStorm API */}
+
+                <div class="col s4">
+                    <div class="card z-depth-3">
+                        <div class="card-image">
+                            <img class="project-img responsive-img" src={require('./artstorm.png')}/>
+                        </div>
+                        <div class="card-content">
+                            <p>Things go here about my apps</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/egranato/Art-Storm-API" target="_blank">Github Repo</a>
+                        </div>
+                    </div>
+                </div>
+
+            {/* fresh */}
 
                 <div class="col s4">
                     <div class="card z-depth-3">
@@ -36,8 +55,12 @@ const Projects = ({ match }) => {
                         </div>
                     </div>
                 </div>
+           </div>
 
-                {/* lolstats */}
+           <div class="row">
+
+
+            {/* lolstats */}
 
                 <div class="col s4">
                     <div class="card z-depth-3">
@@ -53,7 +76,7 @@ const Projects = ({ match }) => {
                     </div>
                 </div>
 
-                {/* isis mock site */}
+            {/* isis mock site */}
 
                 <div class="col s4">
                     <div class="card z-depth-3">
@@ -70,6 +93,10 @@ const Projects = ({ match }) => {
                 </div>
 
            </div>
+                
+
+
+           
        </div>
    )
 }
