@@ -16,7 +16,7 @@ const Projects = ({ match }) => {
                             <p>Things go here about my apps</p>
                         </div>
                         <div class="card-action">
-                            <a href="">Github Repo</a>
+                            <a href="https://github.com/ajvalde/stat-o-rama/tree/master/statorama" target="_blank">Github Repo</a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Projects = ({ match }) => {
                             <p>Things go here about my apps</p>
                         </div>
                         <div class="card-action">
-                            <a href="">Github Repo</a>
+                            <a href="http://appfreshsnow.herokuapp.com/" target="_blank">Live</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Projects = ({ match }) => {
                             <p>Things go here about my apps</p>
                         </div>
                         <div class="card-action">
-                            <a href="">Github Repo</a>
+                            <a href="https://lolstats-2b4a5.firebaseapp.com/" target="_blank">Live</a>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ const Projects = ({ match }) => {
                             <p>Things go here about my apps</p>
                         </div>
                         <div class="card-action">
-                            <a href="">Github Repo</a>
+                            <a href="https://isiswebsite-eb6fd.firebaseapp.com/" target="_blank">Live</a>
                         </div>
                     </div>
                 </div>
