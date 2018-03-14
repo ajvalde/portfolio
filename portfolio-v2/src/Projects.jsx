@@ -10,15 +10,18 @@ const Projects = ({ match }) => {
            {/* stat-o-rama */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card medium z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./stat.png')}/>
                         </div>
                         <div class="card-content">
-                            <p>Things go here about my apps</p>
+                            <p>*App no longer works due to api changes*</p>
+                            <p>A stat viewing app for League of Legends &amp; Overwatch</p>
+                            <p>Frontend built with Vuejs &amp; Electron </p>
+                            <a href="https://github.com/ajvalde/stat-o-rama-backend" target="_blank">Backend built with Express</a>
                         </div>
                         <div class="card-action">
-                            <a href="https://github.com/ajvalde/stat-o-rama/tree/master/statorama" target="_blank">Github Repo</a>
+                            <a href="https://github.com/ajvalde/stat-o-rama/tree/master/statorama" target="_blank">Repo</a>
                         </div>
                     </div>
                 </div>
@@ -27,7 +30,7 @@ const Projects = ({ match }) => {
             {/* ArtStorm API */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card medium z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./artstorm.png')}/>
                         </div>
@@ -35,7 +38,7 @@ const Projects = ({ match }) => {
                             <p>Things go here about my apps</p>
                         </div>
                         <div class="card-action">
-                            <a href="https://github.com/egranato/Art-Storm-API" target="_blank">Github Repo</a>
+                            <a href="https://github.com/egranato/Art-Storm-API" target="_blank">Repo</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +46,7 @@ const Projects = ({ match }) => {
             {/* fresh */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card medium z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./fresh.png')}/>
                         </div>
@@ -63,7 +66,7 @@ const Projects = ({ match }) => {
             {/* lolstats */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card medium z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./lolstat.png')}/>
                         </div>
@@ -79,7 +82,7 @@ const Projects = ({ match }) => {
             {/* isis mock site */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card medium z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./funnywebsite.png')}/>
                         </div>

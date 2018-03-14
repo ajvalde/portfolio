@@ -23,4 +23,11 @@
    height: 14rem;
  }
 
+card.medium {
+  height: auto;
+}
+ card.medium .card-content {
+   height: auto;
+ }
+
 
