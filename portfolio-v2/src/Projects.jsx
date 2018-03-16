@@ -51,8 +51,7 @@ const Projects = ({ match }) => {
                             <img class="project-img responsive-img" src={require('./fresh.png')}/>
                         </div>
                         <div class="card-content">
-                            <p>This app was developed for the purpose of getting up-to-date information on ski resorts across Colorado. 
-                               When you search for a particular resort, it will give you information such as fresh snowfall, trails open, surface conditions, etc.</p>
+                            <p>This app was developed as a school group project for the purpose of getting up-to-date information on ski resorts across Colorado. </p>
                             <a href="https://github.com/JaaM-team/q2-project" target="_blank">Github</a>
                         </div>
                         <div class="card-action">
