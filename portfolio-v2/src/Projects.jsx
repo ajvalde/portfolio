@@ -94,6 +94,7 @@ const Projects = ({ match }) => {
                         </div>
                         <div class="card-content">
                             <p>This is the first web app I deployed. We had to make a mock news site. It's a nice reminder of how far I've come on my coding quest!</p>
+                            <a href="https://github.com/ajvalde/week-1-project" target="_blank">Github</a>
                         </div>
                         <div class="card-action">
                             <a href="https://isiswebsite-eb6fd.firebaseapp.com/" target="_blank">Live</a>
