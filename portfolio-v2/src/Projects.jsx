@@ -10,13 +10,13 @@ const Projects = ({ match }) => {
            {/* stat-o-rama */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card pro-card z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./stat.png')}/>
                         </div>
                         <div class="card-content">
                             <p>*App no longer works due to api changes*</p>
-                            <p>A stat viewing app for League of Legends &amp; Overwatch</p>
+                            <p>My capston e project. A stat viewing app for League of Legends &amp; Overwatch</p>
                             <p>Frontend built with Vuejs &amp; Electron </p>
                             <a href="https://github.com/ajvalde/stat-o-rama-backend" target="_blank">Backend built with Express</a>
                         </div>
@@ -30,12 +30,16 @@ const Projects = ({ match }) => {
             {/* ArtStorm API */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card pro-card  z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./artstorm.png')}/>
                         </div>
                         <div class="card-content">
-                            <p>Things go here about my apps</p>
+                            <p>Art Storm was my Q3 group project at Galvanize. It was a web app where artist can share
+                                work &amp; for customers to commisson artist for work.
+                                I helped make the backend in Ruby on Rails.
+                            </p>
+                            <a href="https://github.com/egranato/Art-Storm-API" target="_blank">Github</a>
                         </div>
                         <div class="card-action">
                             <a href="https://github.com/egranato/Art-Storm-API" target="_blank">Repo</a>
@@ -46,7 +50,7 @@ const Projects = ({ match }) => {
             {/* fresh */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card pro-card  z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./fresh.png')}/>
                         </div>
@@ -67,12 +71,13 @@ const Projects = ({ match }) => {
             {/* lolstats */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card pro-card  z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./lolstat.png')}/>
                         </div>
                         <div class="card-content">
-                            <p>Things go here about my apps</p>
+                            <p>LoL Stats was my Q1 project at Galvanize. It's a web app used to look at your League of Legends stats.</p>
+                            <a href="https://github.com/ajvalde/q1_LoL_Site" target="_blank">Github</a>
                         </div>
                         <div class="card-action">
                             <a href="https://lolstats-2b4a5.firebaseapp.com/" target="_blank">Live</a>
@@ -83,7 +88,7 @@ const Projects = ({ match }) => {
             {/* isis mock site */}
 
                 <div class="col s4">
-                    <div class="card z-depth-3">
+                    <div class="card pro-card  z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./funnywebsite.png')}/>
                         </div>
