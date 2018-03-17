@@ -93,7 +93,7 @@ const Projects = ({ match }) => {
                             <img class="project-img responsive-img" src={require('./funnywebsite.png')}/>
                         </div>
                         <div class="card-content">
-                            <p>Things go here about my apps</p>
+                            <p>This is the first web app I deployed. We had to make a mock news site. It's a nice reminder of how far I've come on my coding quest!</p>
                         </div>
                         <div class="card-action">
                             <a href="https://isiswebsite-eb6fd.firebaseapp.com/" target="_blank">Live</a>
