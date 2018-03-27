@@ -7,7 +7,7 @@ const Home = ({ match }) => {
     return (
         <div class="container">
             <div class='header-tag'>
-                <h2>Anthony J Valdez</h2>
+                <h2>Hi, I'm Anthony Valdez</h2>
             </div>
             <Row>
             <div class="about">
