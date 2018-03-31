@@ -8,7 +8,6 @@ const Projects = ({ match }) => {
            <div class="row">
 
            {/* stat-o-rama */}
-
                 <div class="col s4">
                     <div class="card pro-card z-depth-3">
                         <div class="card-image">
