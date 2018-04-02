@@ -16,7 +16,26 @@ const Home = ({ match }) => {
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Things About Me</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>hey</td>
+                                </tr>
+
+                                 <tr>
+                                    <td>hey</td>
+                                </tr>
+
+                                 <tr>
+                                    <td>hey</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
                 </div>
