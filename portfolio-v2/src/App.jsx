@@ -34,8 +34,8 @@ class App extends Component {
               <div class="col l6 s12">
                 <h5 class="white-text">Contact</h5>
                 <p class="grey-text text-lighten-4"> <i class="far fa-envelope fa-lg"></i> ajvcodes@gmail.com</p>
-                <p class="grey-text text-lighten-4"> <a link="white" href="https://github.com/ajvalde" target="_blank"><i class="fab fa-github fa-lg"></i> </a> GitHub</p>
-                <p class="grey-text text-lighten-4"> <a href="https://www.linkedin.com/in/ajvalde/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a> Linkedin</p>
+                <p class="grey-text text-lighten-4"> <a link="white" href="https://github.com/ajvalde" target="_blank"><i class="fab fa-github fa-lg"></i> GitHub</a></p>
+                <p class="grey-text text-lighten-4"> <a href="https://www.linkedin.com/in/ajvalde/" target="_blank"><i class="fab fa-linkedin fa-lg"></i> Linkedin</a></p>
               </div>
              
             </div>

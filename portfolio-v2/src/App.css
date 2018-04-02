@@ -1,6 +1,11 @@
 body {
   font-family: 'Electrolize', sans-serif;
 
+
+}
+
+h2 {
+  padding-top: 2rem;
 }
 
 .about {
@@ -42,3 +47,6 @@ card.medium {
   color: white;
  }
 
+ .me-card {
+   padding-bottom: 6rem;
+ }
