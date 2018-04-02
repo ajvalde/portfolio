@@ -50,3 +50,10 @@ card.medium {
  .me-card {
    padding-bottom: 6rem;
  }
+
+
+table {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
