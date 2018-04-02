@@ -16,24 +16,25 @@ const Home = ({ match }) => {
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Things About Me</th>
-                                </tr>
-                            </thead>
+                        <table >
+                           
                             <tbody>
                                 <tr>
-                                    <td>hey</td>
+                                    <td class="center-align">Fullstack Developer</td>
                                 </tr>
 
-                                 <tr>
-                                    <td>hey</td>
+                                <hr width="75%" color="black"></hr>
+
+                                <tr>
+                                    <td class="center-align">hey</td>
                                 </tr>
 
-                                 <tr>
-                                    <td>hey</td>
+                                <hr width="75%" color="black"></hr>
+
+                                <tr>
+                                    <td class="center-align">hey</td>
                                 </tr>
+
                             </tbody>
                         </table>
                     </div>
