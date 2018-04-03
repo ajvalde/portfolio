@@ -9,7 +9,7 @@ const Home = ({ match }) => {
                 <h2>Hi, I'm Anthony Valdez</h2>
             </div>
             
-            <div class="me-card col s12 m7">
+            <div class="me-card col s6 m7">
                 <div class="card horizontal z-depth-3">
                 <div class="card-image">
                     <img src={require('./headshot2.jpg')}/>

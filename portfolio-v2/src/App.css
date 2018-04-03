@@ -41,6 +41,7 @@ card.medium {
 
  .pro-card {
    height: 30rem;
+  
  }
 
  .page-footer a {
@@ -56,4 +57,5 @@ table {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  font-size: 1vmax;
 }
