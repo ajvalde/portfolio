@@ -59,3 +59,18 @@ table {
   transform: translateY(-50%);
   font-size: 1vmax;
 }
+
+@media only screen and (max-width: 768px){
+
+
+
+  tbody {
+    
+    font-weight: bold;
+  }
+
+
+  hr {
+    display: none;
+  }
+}
