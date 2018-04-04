@@ -60,7 +60,7 @@ table {
   font-size: 1vmax;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 668px){
 
 
 
@@ -73,4 +73,5 @@ table {
   hr {
     display: none;
   }
+
 }
