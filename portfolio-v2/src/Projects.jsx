@@ -5,10 +5,10 @@ const Projects = ({ match }) => {
        <div class="container">
            <h2 class="center-align">Projects</h2>
 
-           <div class="row">
+           <div class="pcard row">
 
            {/* stat-o-rama */}
-                <div class="col m4 s12">
+                <div class="col l4 m8 s12">
                     <div class="card pro-card z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./stat.png')}/>
@@ -28,7 +28,7 @@ const Projects = ({ match }) => {
 
             {/* ArtStorm API */}
 
-                <div class="col m4 s12">
+                <div class="col l4 m8 s12">
                     <div class="card pro-card  z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./artstorm.png')}/>
@@ -48,7 +48,7 @@ const Projects = ({ match }) => {
 
             {/* fresh */}
 
-                <div class="col m4 s12">
+                <div class="col l4 m8 s12">
                     <div class="card pro-card  z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./fresh.png')}/>
@@ -64,12 +64,12 @@ const Projects = ({ match }) => {
                 </div>
            </div>
 
-           <div class="row">
+           <div class="pcard row">
 
 
             {/* lolstats */}
 
-                <div class="col m4 s12">
+                <div class="col l4 m8 s12">
                     <div class="card pro-card  z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./lolstat.png')}/>
@@ -86,7 +86,7 @@ const Projects = ({ match }) => {
 
             {/* isis mock site */}
 
-                <div class="col m4 s12">
+                <div class="col l4 m8 s12">
                     <div class="card pro-card  z-depth-3">
                         <div class="card-image">
                             <img class="project-img responsive-img" src={require('./funnywebsite.png')}/>
