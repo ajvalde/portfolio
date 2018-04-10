@@ -51,11 +51,41 @@ card.medium {
  .me-card {
    padding-bottom: 6rem;
  }
+ 
+ .thelist {
+   padding-top: 8rem;
+ }
 
 
-table {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 1vmax;
+@media only screen and (max-width: 768px) {
+  .thelist {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 668px){
+
+
+
+  tbody {
+    
+    font-weight: bold;
+  }
+
+  .pcard .card-content{
+    font-size: 14px;
+  }
+
+  .card-content {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .thelist {
+    padding-top: 0;
+  }
+
 }
