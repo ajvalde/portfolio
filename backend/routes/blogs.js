@@ -36,6 +36,14 @@ router.get('/:id', function(req,res){
         })
 })
 
+router.delete('/:id', function(req,res){
+    knex.select().from('blogpost').where('id', req.params.id).del()
+        .then(function(data){
+
+        })
+        res.send('deleted')
+})
+
 
 
 
