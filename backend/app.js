@@ -13,8 +13,11 @@ const logger = require('morgan');
 //routes
 const addBlog = require('./routes/addBlog');
 const blogs = require('./routes/blogs');
+const admin = require('./routes/admin');
 
-
+app.get('/', function(req,res){
+  res.send('working');
+})
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -22,8 +25,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/addBlog', addBlog);
+app.use('/blogs', blogs);
+app.use('/admin', admin);
 
-app.use('/users', usersRouter);
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -39,6 +46,11 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+var server = app.listen(process.env.PORT || 8080, function () {
+  var port = server.address().port;
+  console.log("App now running on port", port);
 });
 
 module.exports = app;
