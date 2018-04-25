@@ -12,6 +12,9 @@ const logger = require('morgan');
 
 //routes
 const addBlog = require('./routes/addBlog');
+const blogs = require('./routes/blogs');
+
+
 
 app.use(logger('dev'));
 app.use(express.json());
