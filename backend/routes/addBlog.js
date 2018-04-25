@@ -17,7 +17,7 @@ router.post('/addBook', (req,res) => {
         .then(function(data){
 
         })
-        res.end();
+        res.send('posted');
 })
 
 
