@@ -15,11 +15,11 @@ const knex = require('../db/knex.js');
 //         res.send("posted");
 // })
 
-router.post('/addPost', (req,res,next) => {
-    let new_blog = JSON.stringify(req.body)
+router.post('/addPost', (req,res) => {
+    console.log(req.body)
     knex('blogpost')
-        .insert({title: new_blog.title, postdate: new_blog.postdate, postcontent: new_blog.postcontent})
-        .then(function(data){
+        .insert([{title: req.body.title, postdate: req.body.postdate, postcontent: req.body.postcontent}])
+        .then((blogpost) => {
 
         })
         res.send('posted')
