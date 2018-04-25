@@ -13,7 +13,7 @@ const knex = require('./db/knex.js')
 
 
 //routes
-const addBlog = require('./routes/addBlog');
+
 const blogs = require('./routes/blogs');
 const admin = require('./routes/admin');
 
@@ -30,7 +30,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 
-app.use('/addBlog', addBlog);
+
 app.use('/blogs', blogs);
 app.use('/admin', admin);
 

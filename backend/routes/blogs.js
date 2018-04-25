@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const knex = require('../db/knex.js');
 
-let b_posts = {}
+
 
 
 function getBlogs(){
@@ -17,6 +17,23 @@ router.get('/', function(req,res){
     .catch((error) => {
         res.status(500).json({ error });
     })
+})
+
+router.post('/', (req,res) => {
+    console.log(req.body)
+    knex('blogpost')
+        .insert([{title: req.body.title, postdate: req.body.postdate, postcontent: req.body.postcontent}])
+        .then((blogpost) => {
+
+        })
+        res.send('posted')
+})
+
+router.get('/:id', function(req,res){
+    knex.select().from('blogpost').where('id', req.params.id)
+        .then(function(data){
+            res.send(data)
+        })
 })
 
 
